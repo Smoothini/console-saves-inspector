@@ -15,6 +15,8 @@ Yet another [Flet](https://flet.dev/) project for a simple and clean desktop UI.
 - 📼 Displays also the game medium, albeit for some reason this is a hit or miss
 - 🆎 Clicking on any of the table headers will order the entries alphabetically based on that column
 
+_NOTE: I've only tested on windows for now, but feel free to open an issue or make a merge request if changes are needed for other platforms!_
+
 ---
 
 ## 📸 Screenshot
@@ -45,9 +47,7 @@ Yet another [Flet](https://flet.dev/) project for a simple and clean desktop UI.
 5. ✨ Enjoy! ✨
 
 ### Option 2: Standalone Executable
-
   - Coming soon
-
 
 ## 🙋‍♂️ Contributing
 Pull requests and suggestions are welcome!
