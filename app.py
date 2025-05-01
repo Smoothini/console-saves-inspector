@@ -8,7 +8,7 @@ def main(page: ft.Page):
     page.title = "Console Saves Inspector"
     page.scroll = "auto"
 
-    console = psv
+    console = ps3
 
     top_text = ft.Text("Select a folder with your savegames:", size=20)
     bottom_text = ft.Text("Made by smoothini!", size=12)
