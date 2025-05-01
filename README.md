@@ -1,15 +1,17 @@
-# 🎮 PS3 Saves Inspector
+# 🎮 Console Saves Inspector
 
-A lightweight tool to inspect PlayStation 3 save game folders and display the names of the games based on their Title IDs!
+A lightweight tool to inspect console save game folders and display the names of the games based on their Title IDs!
 
-Yet another [Flet](https://flet.dev/) project for a simple and clean desktop UI. Built because I backed up my ps3 saves, and apparently I had close to 300, which made it a bit hard to find specific ones.
+Yet another [Flet](https://flet.dev/) project for a simple and clean desktop UI. Built because I backed up my ps3 saves, and apparently I had close to 300, which made it a bit hard to find specific ones. Initially made for the Playstation 3, now expanded!
+
+**All Title IDs and game names are used for identification purposes only. This project is not affiliated with or endorsed by Sony Interactive Entertainment.**
 
 ---
 
 ## ✨ Features
 
-- ✅ Select a folder containing PS3 save games
-- 🔍 Automatically display game titles using `title_ids.txt`
+- ✅ Select a folder containing save games
+- 🔍 Automatically display game titles
 - ⚡️ Fast, minimal interface (no internet required)
 - 🌍 Displays the game region
 - 📼 Displays also the game medium, albeit for some reason this is a hit or miss
@@ -18,6 +20,11 @@ Yet another [Flet](https://flet.dev/) project for a simple and clean desktop UI.
 _NOTE: I've only tested on windows for now, but feel free to open an issue or make a merge request if changes are needed for other platforms!_
 
 ---
+
+## 💽 Supported Consoles as of now
+
+- Playstation 3
+- Playstation Vita
 
 ## 📸 Screenshot
 
