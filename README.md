@@ -48,19 +48,20 @@ _NOTE: I've only tested on windows for now, but feel free to open an issue or ma
   ```bash
   pip install flet
   ```
-3. Run the app, while making sure the `titleid.txt` file is in the same location as the `app.py`
+3. Run the app, while making sure the `datafiles` folder  is in the same location as the `app.py`
   ```bash
   python app.py
   ```
-4. Select a folder where you have multiple PS3 save games
-5. ✨ Enjoy! ✨
+4. Select a console
+5. Select a folder where you have multiple save games for that console
+6. ✨ Enjoy! ✨
 
 ### Option 2: Standalone Executable
   - Coming soon
 
 ## 🙋‍♂️ Contributing
 Pull requests and suggestions are welcome!
-If you'd like to add more Title IDs or improve the UI, feel free to fork and submit a PR.
+If you'd like to add more Title IDs or improve the UI, feel free to fork and submit a PR, frontend ain't really my thing.
 
 ## 📜 License
 

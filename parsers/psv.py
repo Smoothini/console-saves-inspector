@@ -28,8 +28,6 @@ def parse_title(title, ids):
 
     title_id = title
 
-    print(media.keys(), title[0:3])
-
     if title[0:3] in media.keys():
         media_type = media[title[0:3]]
         title_id = f"{title[0:4]}-{title[4:]}"
@@ -48,6 +46,6 @@ def parse_title(title, ids):
     else:
         region_type = "Unknown"
 
-
+    print(f"parsed {title} to {game} ({media_type}) [{region_type}]")
 
     return game, media_type, region_type

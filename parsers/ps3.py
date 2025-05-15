@@ -37,4 +37,6 @@ def parse_title(title, ids):
     else:
         game = "Unknown"
 
+    print(f"parsed {title} to {game} ({media_type}) [{region_type}]")
+
     return game, media_type, region_type

@@ -13,6 +13,27 @@ def main(page: ft.Page):
     top_text = ft.Text("Select a folder with your savegames:", size=20)
     bottom_text = ft.Text("Made by smoothini!", size=12)
 
+    def dropdown_changed(e):
+        selected = e.control.value
+        nonlocal console
+        if selected == "ps3":
+            console = ps3
+            print("PS3 context selected")
+        elif selected == "psv":
+            console = psv
+            print("PS Vita context selected")
+        page.update()
+
+    dropdown = ft.Dropdown(
+        label="Pick one",
+        options=[
+            ft.dropdown.Option("ps3", "PlayStation 3"),
+            ft.dropdown.Option("psv", "PlayStation Vita"),
+        ],
+        value="ps3",  # initial value
+        on_change=dropdown_changed
+    )
+
     # Table and data
     table_data = []
 
@@ -26,7 +47,6 @@ def main(page: ft.Page):
         rows=[],
     )
 
-    ids = console.get_titleids()
 
     def update_table():
         table.rows = [
@@ -49,10 +69,12 @@ def main(page: ft.Page):
 
     def load_folders(path):
         nonlocal table_data
+        ids = console.get_titleids()
         try:
             subfolders = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path, f))]
             
             table_data.clear()
+            print(f"found {len(subfolders)} subfolders")
             for f in subfolders:
                 game, media, region = console.parse_title(f[:9], ids)
                 table_data.append((f, game, region, media))
@@ -78,6 +100,7 @@ def main(page: ft.Page):
     # Layout
     page.add(
         top_text,
+        dropdown,
         pick_button,
         selected_folder,
         table,
