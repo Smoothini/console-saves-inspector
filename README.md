@@ -6,7 +6,7 @@ Yet another [Flet](https://flet.dev/) project for a simple and clean desktop UI.
 
 **All Title IDs and game names are used for identification purposes only. This project is not affiliated with or endorsed by Sony Interactive Entertainment.**
 
-**WORK IN PROGRESS, WORKS BUT NEEDS DROPDOWN TO SELECT CONSOLE, ELSE HAVE TO DO MANUALLY IN CODE**
+**WORK IN PROGRESS**
 
 ---
 
