@@ -31,7 +31,6 @@ _NOTE: I've only tested on windows for now, but feel free to open an issue or ma
 ## 📸 Screenshot
 
 ![Screenshot](screenshot.png)
-  - For some reason, my savegame for the Japanese copy of Puppeteer appears as Buzz Junior Dinomania. Somehow they have the same title ID.
 
 ---
 
@@ -62,6 +61,11 @@ _NOTE: I've only tested on windows for now, but feel free to open an issue or ma
 ## 🙋‍♂️ Contributing
 Pull requests and suggestions are welcome!
 If you'd like to add more Title IDs or improve the UI, feel free to fork and submit a PR, frontend ain't really my thing.
+
+## Known issues
+
+  - For some reason, my savegame for the Japanese copy of Puppeteer appears as Buzz Junior Dinomania. Somehow they have the same title ID.
+  - If lets say you opened a ps3 save games folder, and you switch to another console, the table will be blank until you select a folder with proper save games.
 
 ## 📜 License
 
